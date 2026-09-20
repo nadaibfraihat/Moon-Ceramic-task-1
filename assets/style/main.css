@@ -1,0 +1,122 @@
+/* start of navbar section */
+.navbar-section .row {
+    padding: 21.84px 0px;
+}
+
+.navbar-section .menu ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 60px;
+}
+.navbar-section .menu a{
+    color: #3A3845;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.navbar-section .icons ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+/* end of navbar section */
+/* start of collection section */
+.collection-section .row{
+    padding: 80px 0px;
+    gap: 30px;
+    text-align: center;
+}
+.collection-section h3{
+    text-transform: uppercase;
+    color: #3A3845;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top:23px ;
+}
+.collection-section .collection-item{
+    width: calc((100% - 90px) /4) ;
+}
+.collection-section img{
+    width: 100%;
+}
+/* end of collection section */
+/* start of christmas section  */
+.christmas-section .row{
+    background-color: #F7F6F5;
+}
+.christmas-content{
+    width: 50%;
+    text-align: center;
+    padding: 60px;
+}
+.christmas-content h2, .christmas-content a{
+    text-transform: uppercase;
+    color: #3A3845;
+}
+.christmas-content h2{
+    font-size: 28px;
+    line-height: 32px;
+}
+.christmas-content a{
+    font-size:14px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.christmas-content p{
+    margin: 24px 0px 32px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #595667;
+}
+.christmas-img{
+    width: 50%;
+}
+.christmas-img img{
+    width: 100%;
+    display: block;
+}
+/* end of christmas section */
+
+/* start of best sellers section */
+
+.bestSellersSection .row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.bestseller-items {
+    width: calc((100% - 90px) / 4);
+    margin: 40px 0px;
+}
+.bestSellersSection h2{
+    padding: 80px 0px 48px;
+}
+.bestSellersSection .bestseller-items img {
+    width: 100%;
+}
+.bestSellersSection button{
+    color: #3A3845;
+    background-color: white;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: bold;
+    padding: 15px 0px;
+    margin-top: 38px;
+    border: 1px #807F86 solid;
+}
+.bestSellersSection p{
+    color: #807F86;
+    font-size: 14px;
+    line-height: 22px;
+}
+.bestSellersSection h3{
+    margin: 24px 0px;
+    color: #3A3845;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+/* end of best sellers section */
